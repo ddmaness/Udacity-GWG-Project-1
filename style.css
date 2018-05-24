@@ -2,7 +2,6 @@ body {
     margin: 0;
 }
 header {
-    border-bottom: 4px solid #1f0f47;
     display: flex;
     justify-content: space-between;
 }
@@ -12,5 +11,6 @@ header {
     width: 100%;
     background: url(images/desk.jpg) 0 60% no-repeat;
     background-size: cover;
-
+    border-bottom: 4px solid #1f0f47;
+    border-top: 4px solid #1f0f47;
 }
