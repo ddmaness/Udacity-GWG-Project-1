@@ -3,6 +3,8 @@ body {
 }
 header {
     border-bottom: 4px solid #1f0f47;
+    display: flex;
+    justify-content: space-between;
 }
 
 .hero {
