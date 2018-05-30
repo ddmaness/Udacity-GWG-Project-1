@@ -7,16 +7,29 @@ body {
 }
 
 header {
+    max-width: 1200px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
 }
 
-header h1 {
+.logo {
+    align-self: center;
+    margin-left: 16px;
+}
+
+.name {
+    margin: 16px;
+}
+
+.name h1 {
+    margin: 0;
     font-size: 64px;
     font-weight:100;
 }
 
-header h5 {
+.name h5 {
+    margin: 0;
     font-size: 24px;
 }
 
